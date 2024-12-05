@@ -19,6 +19,10 @@ This is documentation of code examples and information about DDI Implementations
         xmlns:r="ddi:reusable:3_3">
         <ddi:Fragment>
             <s:StudyUnit>
+                <r:URN>urn:ddi:int.example:46defaec-5542-4e22-a4d9-020629452678:1</r:URN>
+                <r:Agency>int.example</r:Agency>
+                <r:ID>46defaec-5542-4e22-a4d9-020629452678</r:ID>
+                <r:Version>1</r:Version>
                 <r:Citation>
                     <r:Title xml:lang="en">Hello World</r:Title>
                 </r:Citation>
