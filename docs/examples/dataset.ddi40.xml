@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemContainer xmlns="ddi:instance:4_0">
+  <TopLevelReference>
+    <URN>urn:ddi:int.example:uuid-1:1</URN>
+    <Agency>int.example</Agency>
+    <ID>uuid-1</ID>
+    <Version>1</Version>
+    <TypeOfObject>PhysicalInstance</TypeOfObject>
+  </TopLevelReference>
+  <PhysicalInstance>
+    <URN>urn:ddi:int.example:uuid-1:1</URN>
+    <Agency>int.example</Agency>
+    <ID>uuid-1</ID>
+    <Version>1</Version>
+    <DataRelationshipReference>
+      <URN>urn:ddi:int.example:uuid-2:1</URN>
+      <Agency>int.example</Agency>
+      <ID>uuid-2</ID>
+      <Version>1</Version>
+      <TypeOfObject>DataRelationship</TypeOfObject>
+    </DataRelationshipReference>
+  </PhysicalInstance>
+  <DataRelationship>
+    <URN>urn:ddi:int.example:uuid-2:1</URN>
+    <Agency>int.example</Agency>
+    <ID>uuid-2</ID>
+    <Version>1</Version>
+    <LogicalRecord>
+      <URN>urn:ddi:int.example:6ce9d4ba-ab33-4a13-a409-76efeaba8734:1</URN>
+      <Agency>int.example</Agency>
+      <ID>uuid-3</ID>
+      <Version>1</Version>
+      <VariablesInRecord>
+        <VariableUsedReference>
+          <URN>urn:ddi:int.example:uuid-4:1</URN>
+          <Agency>int.example</Agency>
+          <ID>uuid-4</ID>
+          <Version>1</Version>
+          <TypeOfObject>Variable</TypeOfObject>
+        </VariableUsedReference>
+        <VariableUsedReference>
+          <URN>urn:ddi:int.example:uuid-5:1</URN>
+          <Agency>int.example</Agency>
+          <ID>uuid-5</ID>
+          <Version>1</Version>
+          <TypeOfObject>Variable</TypeOfObject>
+        </VariableUsedReference>
+        <VariableUsedReference>
+          <URN>urn:ddi:int.example:uuid-6:1</URN>
+          <Agency>int.example</Agency>
+          <ID>uuid-6</ID>
+          <Version>1</Version>
+          <TypeOfObject>Variable</TypeOfObject>
+        </VariableUsedReference>
+        <VariableUsedReference>
+          <URN>urn:ddi:int.example:uuid-7:1</URN>
+          <Agency>int.example</Agency>
+          <ID>uuid-7</ID>
+          <Version>1</Version>
+          <TypeOfObject>Variable</TypeOfObject>
+        </VariableUsedReference>
+      </VariablesInRecord>
+    </LogicalRecord>
+  </DataRelationship>
+  <Variable>
+    <URN>urn:ddi:int.example:uuid-4:1</URN>
+    <Agency>int.example</Agency>
+    <ID>uuid-4</ID>
+    <Version>1</Version>
+    <VariableName>
+      <String>
+        <MultilingualStringValue lang="en">var0</MultilingualStringValue>
+      </String>
+    </VariableName>
+    <Label>
+      <Content>
+        <MultilingualStringValue lang="en">Label for variable 0</MultilingualStringValue>
+      </Content>
+      <Content>
+        <MultilingualStringValue lang="fr">Label pour variable 0</MultilingualStringValue>
+      </Content>
+    </Label>
+    <Description>
+      <Content>
+        <MultilingualStringValue lang="en">Description for variable 0</MultilingualStringValue>
+      </Content>
+      <Content>
+        <MultilingualStringValue lang="fr">Description pour variable 0</MultilingualStringValue>
+      </Content>
+    </Description>
+  </Variable>
+  <Variable>
+    <URN>urn:ddi:int.example:uuid-5:1</URN>
+    <Agency>int.example</Agency>
+    <ID>uuid-5</ID>
+    <Version>1</Version>
+    <VariableName>
+      <String>
+        <MultilingualStringValue lang="en">var1</MultilingualStringValue>
+      </String>
+    </VariableName>
+    <Label>
+      <Content>
+        <MultilingualStringValue lang="en">Label for variable 1</MultilingualStringValue>
+      </Content>
+      <Content>
+        <MultilingualStringValue lang="fr">Label pour variable 1</MultilingualStringValue>
+      </Content>
+    </Label>
+    <Description>
+      <Content>
+        <MultilingualStringValue lang="en">Description for variable 1</MultilingualStringValue>
+      </Content>
+      <Content>
+        <MultilingualStringValue lang="fr">Description pour variable 1</MultilingualStringValue>
+      </Content>
+    </Description>
+  </Variable>
+  <Variable>
+    <URN>urn:ddi:int.example:uuid-6:1</URN>
+    <Agency>int.example</Agency>
+    <ID>uuid-6</ID>
+    <Version>1</Version>
+    <VariableName>
+      <String>
+        <MultilingualStringValue lang="en">var2</MultilingualStringValue>
+      </String>
+    </VariableName>
+    <Label>
+      <Content>
+        <MultilingualStringValue lang="en">Label for variable 2</MultilingualStringValue>
+      </Content>
+      <Content>
+        <MultilingualStringValue lang="fr">Label pour variable 2</MultilingualStringValue>
+      </Content>
+    </Label>
+    <Description>
+      <Content>
+        <MultilingualStringValue lang="en">Description for variable 2</MultilingualStringValue>
+      </Content>
+      <Content>
+        <MultilingualStringValue lang="fr">Description pour variable 2</MultilingualStringValue>
+      </Content>
+    </Description>
+  </Variable>
+  <Variable>
+    <URN>urn:ddi:int.example:uuid-7:1</URN>
+    <Agency>int.example</Agency>
+    <ID>uuid-7</ID>
+    <Version>1</Version>
+    <VariableName>
+      <String>
+        <MultilingualStringValue lang="en">var3</MultilingualStringValue>
+      </String>
+    </VariableName>
+    <Label>
+      <Content>
+        <MultilingualStringValue lang="en">Label for variable 3</MultilingualStringValue>
+      </Content>
+      <Content>
+        <MultilingualStringValue lang="fr">Label pour variable 3</MultilingualStringValue>
+      </Content>
+    </Label>
+    <Description>
+      <Content>
+        <MultilingualStringValue lang="en">Description for variable 3</MultilingualStringValue>
+      </Content>
+      <Content>
+        <MultilingualStringValue lang="fr">Description pour variable 3</MultilingualStringValue>
+      </Content>
+    </Description>
+  </Variable>
+</ItemContainer>

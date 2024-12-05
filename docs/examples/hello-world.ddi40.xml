@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemContainer xmlns="ddi:instance:4_0">
+  <TopLevelReference>
+    <URN>urn:ddi:int.example:uuid-1:1</URN>
+    <Agency>int.example</Agency>
+    <ID>uuid-1</ID>
+    <Version>1</Version>
+    <TypeOfObject>Concept</TypeOfObject>
+  </TopLevelReference>
+  <Concept>
+    <URN>urn:ddi:int.example:uuid-1:1</URN>
+    <Agency>int.example</Agency>
+    <ID>uuid-1</ID>
+    <Version>1</Version>
+    <Label>
+      <Content>
+        <MultilingualStringValue lang="en">Hello, world.</MultilingualStringValue>
+      </Content>
+    </Label>
+  </Concept>
+</ItemContainer>
