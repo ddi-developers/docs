@@ -2,7 +2,7 @@
 
 ## DDI 4.0 beta 2
 
-### Hellow World example
+### Hello World
 * [hello-world.ddi40.json](./instances/hello-world.ddi40.json)
 * [hello-world.ddi40.xml](./instances/hello-world.ddi40.xml)
 
