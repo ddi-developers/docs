@@ -1,6 +1,8 @@
 # Introduction
 
-This is documentation of code examples and information about DDI Implementations.
+This is documentation of code examples and information about DDI Implementations and is a implementation focused compliment to [https://docs.ddialliance.org](https://docs.ddialliance.org)
+
+The goal is to provide a number of markup examples and guides for implementers.
 
 ## Hello World
 
@@ -33,7 +35,11 @@ This is documentation of code examples and information about DDI Implementations
 === "DDI-C 2.5"
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
-    <codeBook xmlns="ddi:codebook:2_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd">
+    <codeBook 
+        xmlns="ddi:codebook:2_5" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd">
         <stdyDscr>
             <citation>
                 <titlStmt>
