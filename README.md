@@ -1,4 +1,4 @@
-# docs.ddi-developers.github.io
+# ddi-developers.github.io/docs
 Harvesting, controlled vocabularies and metadata documentation.  
 The documentation is live on:  
 https://ddi-developers.github.io/docs
@@ -18,3 +18,6 @@ This requires [python](https://www.python.org) and [pip](https://pypi.org/projec
 
 `mkdocs build` - Build the documentation site.  
 `mkdocs serve` - Start the live-reloading docs server.
+
+## License
+MIT
