@@ -12,9 +12,11 @@ This is documentation of code examples and information about DDI Implementations
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <ddi:FragmentInstance 
-        xmlns:ddi="ddi:instance:3_3 http://ddialliance.org/Specification/DDI-Lifecycle/3.3/XMLSchema/instance.xsd" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:instance:3_3 http://ddialliance.org/Specification/DDI-Lifecycle/3.3/XMLSchema/instance.xsd"
+        xmlns:xml="http://www.w3.org/XML/1998/namespace"
+        xmlns:ddi="ddi:instance:3_3" 
         xmlns:s="ddi:studyunit:3_3" 
-        xmlns:r="ddi:reusable:3_3" >
+        xmlns:r="ddi:reusable:3_3">
         <ddi:Fragment>
             <s:StudyUnit>
                 <r:Citation>
