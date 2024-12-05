@@ -1,0 +1,32 @@
+{
+  "topLevelReference": [
+    {
+      "$type": "ref",
+      "value": [
+        "Concept",
+        "urn:ddi:int.example:uuid-1:1"
+      ]
+    }
+  ],
+  "Concept": {
+    "urn:ddi:int.example:uuid-1:1": {
+      "Label": [
+        {
+          "Content": [
+            {
+              "MultilingualStringValue": {
+                "Value": "Hello, world.",
+                "LanguageTag": "en"
+              }
+            }
+          ]
+        }
+      ],
+      "$type": "Concept",
+      "URN": "urn:ddi:int.example:uuid-1:1",
+      "Agency": "int.example",
+      "ID": "uuid-1",
+      "Version": "1"
+    }
+  }
+}

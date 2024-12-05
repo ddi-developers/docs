@@ -1,0 +1,293 @@
+{
+  "topLevelReference": [
+    {
+      "$type": "ref",
+      "value": [
+        "PhysicalInstance",
+        "urn:ddi:int.example:uuid-1:1"
+      ]
+    }
+  ],
+  "PhysicalInstance": {
+    "urn:ddi:int.example:uuid-1:1": {
+      "DataRelationshipReference": [
+        {
+          "$type": "ref",
+          "value": [
+            "DataRelationship",
+            "urn:ddi:int.example:uuid-2:1"
+          ]
+        }
+      ],
+      "$type": "PhysicalInstance",
+      "URN": "urn:ddi:int.example:uuid-1:1",
+      "Agency": "int.example",
+      "ID": "uuid-1",
+      "Version": "1"
+    }
+  },
+  "DataRelationship": {
+    "urn:ddi:int.example:uuid-2:1": {
+      "LogicalRecord": [
+        {
+          "VariablesInRecord": {
+            "VariableUsedReference": [
+              {
+                "$type": "ref",
+                "value": [
+                  "Variable",
+                  "urn:ddi:int.example:uuid-4:1"
+                ]
+              },
+              {
+                "$type": "ref",
+                "value": [
+                  "Variable",
+                  "urn:ddi:int.example:uuid-5:1"
+                ]
+              },
+              {
+                "$type": "ref",
+                "value": [
+                  "Variable",
+                  "urn:ddi:int.example:uuid-6:1"
+                ]
+              },
+              {
+                "$type": "ref",
+                "value": [
+                  "Variable",
+                  "urn:ddi:int.example:uuid-7:1"
+                ]
+              }
+            ]
+          },
+          "$type": "LogicalRecordType",
+          "URN": "urn:ddi:int.exampleuuid-3:1",
+          "Agency": "int.example",
+          "ID": "uuid-3",
+          "Version": "1"
+        }
+      ],
+      "$type": "DataRelationship",
+      "URN": "urn:ddi:int.example:uuid-2:1",
+      "Agency": "int.example",
+      "ID": "uuid-2",
+      "Version": "1"
+    }
+  },
+  "Variable": {
+    "urn:ddi:int.example:uuid-4:1": {
+      "VariableName": [
+        {
+          "String": [
+            {
+              "MultilingualStringValue": {
+                "Value": "var0",
+                "LanguageTag": "en"
+              }
+            }
+          ]
+        }
+      ],
+      "Label": [
+        {
+          "Content": [
+            {
+              "MultilingualStringValue": {
+                "Value": "Label for variable 0",
+                "LanguageTag": "en"
+              }
+            },
+            {
+              "MultilingualStringValue": {
+                "Value": "Label pour variable 0",
+                "LanguageTag": "fr"
+              }
+            }
+          ]
+        }
+      ],
+      "Description": {
+        "Content": [
+          {
+            "MultilingualStringValue": {
+              "Value": "Description for variable 0",
+              "LanguageTag": "en"
+            }
+          },
+          {
+            "MultilingualStringValue": {
+              "Value": "Description pour variable 0",
+              "LanguageTag": "fr"
+            }
+          }
+        ]
+      },
+      "$type": "Variable",
+      "URN": "urn:ddi:int.example:uuid-4:1",
+      "Agency": "int.example",
+      "ID": "uuid-4",
+      "Version": "1"
+    },
+    "urn:ddi:int.example:uuid-5:1": {
+      "VariableName": [
+        {
+          "String": [
+            {
+              "MultilingualStringValue": {
+                "Value": "var1",
+                "LanguageTag": "en"
+              }
+            }
+          ]
+        }
+      ],
+      "Label": [
+        {
+          "Content": [
+            {
+              "MultilingualStringValue": {
+                "Value": "Label for variable 1",
+                "LanguageTag": "en"
+              }
+            },
+            {
+              "MultilingualStringValue": {
+                "Value": "Label pour variable 1",
+                "LanguageTag": "fr"
+              }
+            }
+          ]
+        }
+      ],
+      "Description": {
+        "Content": [
+          {
+            "MultilingualStringValue": {
+              "Value": "Description for variable 1",
+              "LanguageTag": "en"
+            }
+          },
+          {
+            "MultilingualStringValue": {
+              "Value": "Description pour variable 1",
+              "LanguageTag": "fr"
+            }
+          }
+        ]
+      },
+      "$type": "Variable",
+      "URN": "urn:ddi:int.example:uuid-5:1",
+      "Agency": "int.example",
+      "ID": "uuid-5",
+      "Version": "1"
+    },
+    "urn:ddi:int.example:uuid-6:1": {
+      "VariableName": [
+        {
+          "String": [
+            {
+              "MultilingualStringValue": {
+                "Value": "var2",
+                "LanguageTag": "en"
+              }
+            }
+          ]
+        }
+      ],
+      "Label": [
+        {
+          "Content": [
+            {
+              "MultilingualStringValue": {
+                "Value": "Label for variable 2",
+                "LanguageTag": "en"
+              }
+            },
+            {
+              "MultilingualStringValue": {
+                "Value": "Label pour variable 2",
+                "LanguageTag": "fr"
+              }
+            }
+          ]
+        }
+      ],
+      "Description": {
+        "Content": [
+          {
+            "MultilingualStringValue": {
+              "Value": "Description for variable 2",
+              "LanguageTag": "en"
+            }
+          },
+          {
+            "MultilingualStringValue": {
+              "Value": "Description pour variable 2",
+              "LanguageTag": "fr"
+            }
+          }
+        ]
+      },
+      "$type": "Variable",
+      "URN": "urn:ddi:int.example:uuid-6:1",
+      "Agency": "int.example",
+      "ID": "uuid-6",
+      "Version": "1"
+    },
+    "urn:ddi:int.example:uuid-7:1": {
+      "VariableName": [
+        {
+          "String": [
+            {
+              "MultilingualStringValue": {
+                "Value": "var3",
+                "LanguageTag": "en"
+              }
+            }
+          ]
+        }
+      ],
+      "Label": [
+        {
+          "Content": [
+            {
+              "MultilingualStringValue": {
+                "Value": "Label for variable 3",
+                "LanguageTag": "en"
+              }
+            },
+            {
+              "MultilingualStringValue": {
+                "Value": "Label pour variable 3",
+                "LanguageTag": "fr"
+              }
+            }
+          ]
+        }
+      ],
+      "Description": {
+        "Content": [
+          {
+            "MultilingualStringValue": {
+              "Value": "Description for variable 3",
+              "LanguageTag": "en"
+            }
+          },
+          {
+            "MultilingualStringValue": {
+              "Value": "Description pour variable 3",
+              "LanguageTag": "fr"
+            }
+          }
+        ]
+      },
+      "$type": "Variable",
+      "URN": "urn:ddi:int.example:uuid-7:1",
+      "Agency": "int.example",
+      "ID": "uuid-7",
+      "Version": "1"
+    }
+  }
+}

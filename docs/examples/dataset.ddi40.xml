@@ -26,7 +26,7 @@
     <ID>uuid-2</ID>
     <Version>1</Version>
     <LogicalRecord>
-      <URN>urn:ddi:int.example:6ce9d4ba-ab33-4a13-a409-76efeaba8734:1</URN>
+      <URN>urn:ddi:int.exampleuuid-3:1</URN>
       <Agency>int.example</Agency>
       <ID>uuid-3</ID>
       <Version>1</Version>
