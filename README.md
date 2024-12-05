@@ -1,7 +1,7 @@
 # docs.ddi-developers.github.io
 Harvesting, controlled vocabularies and metadata documentation.  
 The documentation is live on:  
-https://docs.ddi-developers.github.io
+https://ddi-developers.github.io/docs
 
 # edit online
 Make changes to the markdown files in the `docs` directory and commit.
