@@ -20,7 +20,7 @@ This is documentation of code examples and information about DDI Implementations
         <ddi:Fragment>
             <s:StudyUnit>
                 <r:Citation>
-                    <r:Title>Hello World</r:Title>
+                    <r:Title xml:lang="en">Hello World</r:Title>
                 </r:Citation>
             </s:StudyUnit>
         </ddi:Fragment>
