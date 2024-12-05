@@ -1,4 +1,4 @@
-# DDI-L
+# DDI-Lifecycle
 
 Instance examples for DDI-Lifecycle
 
