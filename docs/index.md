@@ -4,7 +4,7 @@ This is documentation of code examples and information about DDI Implementations
 
 ## Hello World
 
-=== "DDI 4"
+=== "DDI 4.0-beta.2"
     ```xml
     <!--TODO-->
     ```
