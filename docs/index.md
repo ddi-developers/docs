@@ -10,7 +10,19 @@ This is documentation of code examples and information about DDI Implementations
     ```
 === "DDI-L 3.3"
     ```xml
-    <!--TODO-->
+    <?xml version="1.0" encoding="UTF-8"?>
+    <ddi:FragmentInstance 
+        xmlns:ddi="ddi:instance:3_3 http://ddialliance.org/Specification/DDI-Lifecycle/3.3/XMLSchema/instance.xsd" 
+        xmlns:s="ddi:studyunit:3_3" 
+        xmlns:r="ddi:reusable:3_3" >
+        <ddi:Fragment>
+            <s:StudyUnit>
+                <r:Citation>
+                    <r:Title>Hello World</r:Title>
+                </r:Citation>
+            </s:StudyUnit>
+        </ddi:Fragment>
+    </ddi:FragmentInstance>
     ```
 === "DDI-C 2.5"
     ```xml
@@ -19,7 +31,7 @@ This is documentation of code examples and information about DDI Implementations
         <stdyDscr>
             <citation>
                 <titlStmt>
-                    <titl>Hellow World</titl>
+                    <titl>Hello World</titl>
                 </titlStmt>
             </citation>
         </stdyDscr>
