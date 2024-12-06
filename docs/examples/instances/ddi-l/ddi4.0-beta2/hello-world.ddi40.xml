@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ItemContainer xmlns="ddi:instance:4_0">
   <TopLevelReference>
-    <URN>urn:ddi:int.example:4affdb43-23d9-42ae-95df-c1034aeb013e:1</URN>
+    <URN>urn:ddi:int.example:e500699b-715a-4f01-b5ef-b8e490afb5ed:1</URN>
     <Agency>int.example</Agency>
-    <ID>4affdb43-23d9-42ae-95df-c1034aeb013e</ID>
+    <ID>e500699b-715a-4f01-b5ef-b8e490afb5ed</ID>
     <Version>1</Version>
     <TypeOfObject>Concept</TypeOfObject>
   </TopLevelReference>
   <Concept>
-    <URN>urn:ddi:int.example:4affdb43-23d9-42ae-95df-c1034aeb013e:1</URN>
+    <URN>urn:ddi:int.example:e500699b-715a-4f01-b5ef-b8e490afb5ed:1</URN>
     <Agency>int.example</Agency>
-    <ID>4affdb43-23d9-42ae-95df-c1034aeb013e</ID>
+    <ID>e500699b-715a-4f01-b5ef-b8e490afb5ed</ID>
     <Version>1</Version>
     <Label>
       <Content>

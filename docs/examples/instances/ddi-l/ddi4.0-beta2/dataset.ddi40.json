@@ -4,30 +4,30 @@
       "$type": "ref",
       "value": [
         "PhysicalInstance",
-        "urn:ddi:int.example:a08b84e3-308b-4d8e-87df-8bb7c6bf0bdd:1"
+        "urn:ddi:int.example:b6ef5c83-e7bb-485b-a3a4-019de64a0285:1"
       ]
     }
   ],
   "PhysicalInstance": {
-    "urn:ddi:int.example:a08b84e3-308b-4d8e-87df-8bb7c6bf0bdd:1": {
+    "urn:ddi:int.example:b6ef5c83-e7bb-485b-a3a4-019de64a0285:1": {
       "DataRelationshipReference": [
         {
           "$type": "ref",
           "value": [
             "DataRelationship",
-            "urn:ddi:int.example:f241d049-df2a-4a4c-96ec-d3cfbb350462:1"
+            "urn:ddi:int.example:796ebffe-97b7-4fbb-98bd-5704833252b3:1"
           ]
         }
       ],
       "$type": "PhysicalInstance",
-      "URN": "urn:ddi:int.example:a08b84e3-308b-4d8e-87df-8bb7c6bf0bdd:1",
+      "URN": "urn:ddi:int.example:b6ef5c83-e7bb-485b-a3a4-019de64a0285:1",
       "Agency": "int.example",
-      "ID": "a08b84e3-308b-4d8e-87df-8bb7c6bf0bdd",
+      "ID": "b6ef5c83-e7bb-485b-a3a4-019de64a0285",
       "Version": "1"
     }
   },
   "DataRelationship": {
-    "urn:ddi:int.example:f241d049-df2a-4a4c-96ec-d3cfbb350462:1": {
+    "urn:ddi:int.example:796ebffe-97b7-4fbb-98bd-5704833252b3:1": {
       "LogicalRecord": [
         {
           "VariablesInRecord": {
@@ -36,48 +36,48 @@
                 "$type": "ref",
                 "value": [
                   "Variable",
-                  "urn:ddi:int.example:ff73085f-4dc7-4145-aed3-9041e53d05de:1"
+                  "urn:ddi:int.example:a1c33678-ff74-4ee3-87f4-0331445b2e0d:1"
                 ]
               },
               {
                 "$type": "ref",
                 "value": [
                   "Variable",
-                  "urn:ddi:int.example:cbeb4256-e9f9-4392-86b0-c7a71b3ddb9b:1"
+                  "urn:ddi:int.example:67a50fdb-1ed0-4bd6-a134-a31ee4435662:1"
                 ]
               },
               {
                 "$type": "ref",
                 "value": [
                   "Variable",
-                  "urn:ddi:int.example:6a386792-07d4-4c81-bfd8-0e35af6dbef8:1"
+                  "urn:ddi:int.example:10568cb7-adf4-42d0-b9a9-3bea295c0414:1"
                 ]
               },
               {
                 "$type": "ref",
                 "value": [
                   "Variable",
-                  "urn:ddi:int.example:39d3d9d1-0a65-416f-a405-2a789517c00e:1"
+                  "urn:ddi:int.example:3ae794d1-4fd1-4de1-a19f-94437984cdf7:1"
                 ]
               }
             ]
           },
           "$type": "LogicalRecordType",
-          "URN": "urn:ddi:int.example:01af2e1c-1198-4eb4-8362-2b4b82a5b3a2:1",
+          "URN": "urn:ddi:int.example:02e6d94e-f8a1-4c08-96b7-f8b7df196097:1",
           "Agency": "int.example",
-          "ID": "01af2e1c-1198-4eb4-8362-2b4b82a5b3a2",
+          "ID": "02e6d94e-f8a1-4c08-96b7-f8b7df196097",
           "Version": "1"
         }
       ],
       "$type": "DataRelationship",
-      "URN": "urn:ddi:int.example:f241d049-df2a-4a4c-96ec-d3cfbb350462:1",
+      "URN": "urn:ddi:int.example:796ebffe-97b7-4fbb-98bd-5704833252b3:1",
       "Agency": "int.example",
-      "ID": "f241d049-df2a-4a4c-96ec-d3cfbb350462",
+      "ID": "796ebffe-97b7-4fbb-98bd-5704833252b3",
       "Version": "1"
     }
   },
   "Variable": {
-    "urn:ddi:int.example:ff73085f-4dc7-4145-aed3-9041e53d05de:1": {
+    "urn:ddi:int.example:a1c33678-ff74-4ee3-87f4-0331445b2e0d:1": {
       "VariableName": [
         {
           "String": [
@@ -125,12 +125,12 @@
         ]
       },
       "$type": "Variable",
-      "URN": "urn:ddi:int.example:ff73085f-4dc7-4145-aed3-9041e53d05de:1",
+      "URN": "urn:ddi:int.example:a1c33678-ff74-4ee3-87f4-0331445b2e0d:1",
       "Agency": "int.example",
-      "ID": "ff73085f-4dc7-4145-aed3-9041e53d05de",
+      "ID": "a1c33678-ff74-4ee3-87f4-0331445b2e0d",
       "Version": "1"
     },
-    "urn:ddi:int.example:cbeb4256-e9f9-4392-86b0-c7a71b3ddb9b:1": {
+    "urn:ddi:int.example:67a50fdb-1ed0-4bd6-a134-a31ee4435662:1": {
       "VariableName": [
         {
           "String": [
@@ -178,12 +178,12 @@
         ]
       },
       "$type": "Variable",
-      "URN": "urn:ddi:int.example:cbeb4256-e9f9-4392-86b0-c7a71b3ddb9b:1",
+      "URN": "urn:ddi:int.example:67a50fdb-1ed0-4bd6-a134-a31ee4435662:1",
       "Agency": "int.example",
-      "ID": "cbeb4256-e9f9-4392-86b0-c7a71b3ddb9b",
+      "ID": "67a50fdb-1ed0-4bd6-a134-a31ee4435662",
       "Version": "1"
     },
-    "urn:ddi:int.example:6a386792-07d4-4c81-bfd8-0e35af6dbef8:1": {
+    "urn:ddi:int.example:10568cb7-adf4-42d0-b9a9-3bea295c0414:1": {
       "VariableName": [
         {
           "String": [
@@ -231,12 +231,12 @@
         ]
       },
       "$type": "Variable",
-      "URN": "urn:ddi:int.example:6a386792-07d4-4c81-bfd8-0e35af6dbef8:1",
+      "URN": "urn:ddi:int.example:10568cb7-adf4-42d0-b9a9-3bea295c0414:1",
       "Agency": "int.example",
-      "ID": "6a386792-07d4-4c81-bfd8-0e35af6dbef8",
+      "ID": "10568cb7-adf4-42d0-b9a9-3bea295c0414",
       "Version": "1"
     },
-    "urn:ddi:int.example:39d3d9d1-0a65-416f-a405-2a789517c00e:1": {
+    "urn:ddi:int.example:3ae794d1-4fd1-4de1-a19f-94437984cdf7:1": {
       "VariableName": [
         {
           "String": [
@@ -284,9 +284,9 @@
         ]
       },
       "$type": "Variable",
-      "URN": "urn:ddi:int.example:39d3d9d1-0a65-416f-a405-2a789517c00e:1",
+      "URN": "urn:ddi:int.example:3ae794d1-4fd1-4de1-a19f-94437984cdf7:1",
       "Agency": "int.example",
-      "ID": "39d3d9d1-0a65-416f-a405-2a789517c00e",
+      "ID": "3ae794d1-4fd1-4de1-a19f-94437984cdf7",
       "Version": "1"
     }
   }

@@ -5,3 +5,9 @@
 
 <urn:ddi:int.example:4affdb43-23d9-42ae-95df-c1034aeb013e:1> a <ddi:Concept>;
                                                              <http://www.w3.org/2002/07/owl#dummy1> "Hello, world.".
+<urn:ddi:int.example:e500699b-715a-4f01-b5ef-b8e490afb5ed:1> <ddi:Label> [a <ddi:LabelType> ; 
+                                                                          a <ddi:StructuredStringType> ; 
+                                                                          <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                         <ddi:MultilingualStringValue> "Hello, world."@en]];
+                                                             a <ddi:Concept>,
+                                                               <ddi:Versionable>.

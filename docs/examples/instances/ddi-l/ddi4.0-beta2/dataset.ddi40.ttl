@@ -3,15 +3,88 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix ddi: <http://rdf-vocabulary.ddialliance.org/lifecycle##>.
 
-<urn:ddi:int.example:39d3d9d1-0a65-416f-a405-2a789517c00e:1> a <ddi:Variable>;
-                                                             <http://www.w3.org/2002/07/owl#dummy1> "dummy2".
-<urn:ddi:int.example:6a386792-07d4-4c81-bfd8-0e35af6dbef8:1> a <ddi:Variable>;
-                                                             <http://www.w3.org/2002/07/owl#dummy1> "dummy2".
-<urn:ddi:int.example:a08b84e3-308b-4d8e-87df-8bb7c6bf0bdd:1> a <ddi:PhysicalInstance>;
-                                                             <http://www.w3.org/2002/07/owl#dummy1> "dummy2".
-<urn:ddi:int.example:cbeb4256-e9f9-4392-86b0-c7a71b3ddb9b:1> a <ddi:Variable>;
-                                                             <http://www.w3.org/2002/07/owl#dummy1> "dummy2".
-<urn:ddi:int.example:f241d049-df2a-4a4c-96ec-d3cfbb350462:1> a <ddi:DataRelationship>;
-                                                             <http://www.w3.org/2002/07/owl#dummy1> "dummy2".
-<urn:ddi:int.example:ff73085f-4dc7-4145-aed3-9041e53d05de:1> a <ddi:Variable>;
-                                                             <http://www.w3.org/2002/07/owl#dummy1> "dummy2".
+<urn:ddi:int.example:10568cb7-adf4-42d0-b9a9-3bea295c0414:1> <ddi:Description> [a <ddi:StructuredStringType> ; 
+                                                                                <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                               <ddi:MultilingualStringValue> "Description for variable 2"@en] ; 
+                                                                                <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                               <ddi:MultilingualStringValue> "Description pour variable 2"@fr]];
+                                                             <ddi:Label> [a <ddi:LabelType> ; 
+                                                                          a <ddi:StructuredStringType> ; 
+                                                                          <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                         <ddi:MultilingualStringValue> "Label for variable 2"@en] ; 
+                                                                          <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                         <ddi:MultilingualStringValue> "Label pour variable 2"@fr]];
+                                                             <ddi:VariableName> [a <ddi:NameType> ; 
+                                                                                 a <ddi:InternationalStringType> ; 
+                                                                                 <ddi:String> [a <ddi:StringType> ; 
+                                                                                               <ddi:MultilingualStringValue> "var2"@en]];
+                                                             a <ddi:Variable>,
+                                                               <ddi:Versionable>.
+<urn:ddi:int.example:3ae794d1-4fd1-4de1-a19f-94437984cdf7:1> <ddi:Description> [a <ddi:StructuredStringType> ; 
+                                                                                <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                               <ddi:MultilingualStringValue> "Description for variable 3"@en] ; 
+                                                                                <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                               <ddi:MultilingualStringValue> "Description pour variable 3"@fr]];
+                                                             <ddi:Label> [a <ddi:LabelType> ; 
+                                                                          a <ddi:StructuredStringType> ; 
+                                                                          <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                         <ddi:MultilingualStringValue> "Label for variable 3"@en] ; 
+                                                                          <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                         <ddi:MultilingualStringValue> "Label pour variable 3"@fr]];
+                                                             <ddi:VariableName> [a <ddi:NameType> ; 
+                                                                                 a <ddi:InternationalStringType> ; 
+                                                                                 <ddi:String> [a <ddi:StringType> ; 
+                                                                                               <ddi:MultilingualStringValue> "var3"@en]];
+                                                             a <ddi:Variable>,
+                                                               <ddi:Versionable>.
+<urn:ddi:int.example:67a50fdb-1ed0-4bd6-a134-a31ee4435662:1> <ddi:Description> [a <ddi:StructuredStringType> ; 
+                                                                                <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                               <ddi:MultilingualStringValue> "Description for variable 1"@en] ; 
+                                                                                <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                               <ddi:MultilingualStringValue> "Description pour variable 1"@fr]];
+                                                             <ddi:Label> [a <ddi:LabelType> ; 
+                                                                          a <ddi:StructuredStringType> ; 
+                                                                          <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                         <ddi:MultilingualStringValue> "Label for variable 1"@en] ; 
+                                                                          <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                         <ddi:MultilingualStringValue> "Label pour variable 1"@fr]];
+                                                             <ddi:VariableName> [a <ddi:NameType> ; 
+                                                                                 a <ddi:InternationalStringType> ; 
+                                                                                 <ddi:String> [a <ddi:StringType> ; 
+                                                                                               <ddi:MultilingualStringValue> "var1"@en]];
+                                                             a <ddi:Variable>,
+                                                               <ddi:Versionable>.
+<urn:ddi:int.example:796ebffe-97b7-4fbb-98bd-5704833252b3:1> <ddi:LogicalRecord> [a <ddi:LogicalRecordType> ; 
+                                                                                  a <ddi:IdentifiableType> ; 
+                                                                                  <ddi:URN> "urn:ddi:int.example:02e6d94e-f8a1-4c08-96b7-f8b7df196097:1" ; 
+                                                                                  <ddi:Agency> "int.example" ; 
+                                                                                  <ddi:ID> "02e6d94e-f8a1-4c08-96b7-f8b7df196097" ; 
+                                                                                  <ddi:Version> "1" ; 
+                                                                                  <ddi:VariablesInRecord> [a <ddi:VariablesInRecordType> ; 
+                                                                                                           <ddi:VariableUsedReference> <urn:ddi:int.example:a1c33678-ff74-4ee3-87f4-0331445b2e0d:1> ; 
+                                                                                                           <ddi:VariableUsedReference> <urn:ddi:int.example:67a50fdb-1ed0-4bd6-a134-a31ee4435662:1> ; 
+                                                                                                           <ddi:VariableUsedReference> <urn:ddi:int.example:10568cb7-adf4-42d0-b9a9-3bea295c0414:1> ; 
+                                                                                                           <ddi:VariableUsedReference> <urn:ddi:int.example:3ae794d1-4fd1-4de1-a19f-94437984cdf7:1>]];
+                                                             a <ddi:DataRelationship>,
+                                                               <ddi:Versionable>.
+<urn:ddi:int.example:a1c33678-ff74-4ee3-87f4-0331445b2e0d:1> <ddi:Description> [a <ddi:StructuredStringType> ; 
+                                                                                <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                               <ddi:MultilingualStringValue> "Description for variable 0"@en] ; 
+                                                                                <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                               <ddi:MultilingualStringValue> "Description pour variable 0"@fr]];
+                                                             <ddi:Label> [a <ddi:LabelType> ; 
+                                                                          a <ddi:StructuredStringType> ; 
+                                                                          <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                         <ddi:MultilingualStringValue> "Label for variable 0"@en] ; 
+                                                                          <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                         <ddi:MultilingualStringValue> "Label pour variable 0"@fr]];
+                                                             <ddi:VariableName> [a <ddi:NameType> ; 
+                                                                                 a <ddi:InternationalStringType> ; 
+                                                                                 <ddi:String> [a <ddi:StringType> ; 
+                                                                                               <ddi:MultilingualStringValue> "var0"@en]];
+                                                             a <ddi:Variable>,
+                                                               <ddi:Versionable>.
+<urn:ddi:int.example:b6ef5c83-e7bb-485b-a3a4-019de64a0285:1> <ddi:DataRelationshipReference> <urn:ddi:int.example:796ebffe-97b7-4fbb-98bd-5704833252b3:1>;
+                                                             a <ddi:PhysicalInstance>,
+                                                               <ddi:Maintainable>,
+                                                               <ddi:Versionable>.
