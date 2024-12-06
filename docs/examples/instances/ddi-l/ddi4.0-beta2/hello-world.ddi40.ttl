@@ -4,4 +4,4 @@
 @prefix ddi: <http://rdf-vocabulary.ddialliance.org/lifecycle##>.
 
 <urn:ddi:int.example:4affdb43-23d9-42ae-95df-c1034aeb013e:1> a <ddi:Concept>;
-                                                             <http://www.w3.org/2002/07/owl#dummy1> "dummy2".
+                                                             <http://www.w3.org/2002/07/owl#dummy1> "Hello, world.".
