@@ -1,61 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ItemContainer xmlns="ddi:instance:4_0">
   <TopLevelReference>
-    <URN>urn:ddi:int.example:b6ef5c83-e7bb-485b-a3a4-019de64a0285:1</URN>
+    <URN>urn:ddi:int.example:ada003e0-e129-4454-9113-41535d47a35f:1</URN>
     <Agency>int.example</Agency>
-    <ID>b6ef5c83-e7bb-485b-a3a4-019de64a0285</ID>
+    <ID>ada003e0-e129-4454-9113-41535d47a35f</ID>
     <Version>1</Version>
     <TypeOfObject>PhysicalInstance</TypeOfObject>
   </TopLevelReference>
   <PhysicalInstance>
-    <URN>urn:ddi:int.example:b6ef5c83-e7bb-485b-a3a4-019de64a0285:1</URN>
+    <URN>urn:ddi:int.example:ada003e0-e129-4454-9113-41535d47a35f:1</URN>
     <Agency>int.example</Agency>
-    <ID>b6ef5c83-e7bb-485b-a3a4-019de64a0285</ID>
+    <ID>ada003e0-e129-4454-9113-41535d47a35f</ID>
     <Version>1</Version>
     <DataRelationshipReference>
-      <URN>urn:ddi:int.example:796ebffe-97b7-4fbb-98bd-5704833252b3:1</URN>
+      <URN>urn:ddi:int.example:5c508855-d1d0-425e-ae8b-1d1f76a18800:1</URN>
       <Agency>int.example</Agency>
-      <ID>796ebffe-97b7-4fbb-98bd-5704833252b3</ID>
+      <ID>5c508855-d1d0-425e-ae8b-1d1f76a18800</ID>
       <Version>1</Version>
       <TypeOfObject>DataRelationship</TypeOfObject>
     </DataRelationshipReference>
   </PhysicalInstance>
   <DataRelationship>
-    <URN>urn:ddi:int.example:796ebffe-97b7-4fbb-98bd-5704833252b3:1</URN>
+    <URN>urn:ddi:int.example:5c508855-d1d0-425e-ae8b-1d1f76a18800:1</URN>
     <Agency>int.example</Agency>
-    <ID>796ebffe-97b7-4fbb-98bd-5704833252b3</ID>
+    <ID>5c508855-d1d0-425e-ae8b-1d1f76a18800</ID>
     <Version>1</Version>
     <LogicalRecord>
-      <URN>urn:ddi:int.example:02e6d94e-f8a1-4c08-96b7-f8b7df196097:1</URN>
+      <URN>urn:ddi:int.example:8c0eadd8-f922-4638-aef7-6c2fa4cb012f:1</URN>
       <Agency>int.example</Agency>
-      <ID>02e6d94e-f8a1-4c08-96b7-f8b7df196097</ID>
+      <ID>8c0eadd8-f922-4638-aef7-6c2fa4cb012f</ID>
       <Version>1</Version>
       <VariablesInRecord>
         <VariableUsedReference>
-          <URN>urn:ddi:int.example:a1c33678-ff74-4ee3-87f4-0331445b2e0d:1</URN>
+          <URN>urn:ddi:int.example:667c141f-1a25-47ea-bf92-bc37b3599761:1</URN>
           <Agency>int.example</Agency>
-          <ID>a1c33678-ff74-4ee3-87f4-0331445b2e0d</ID>
+          <ID>667c141f-1a25-47ea-bf92-bc37b3599761</ID>
           <Version>1</Version>
           <TypeOfObject>Variable</TypeOfObject>
         </VariableUsedReference>
         <VariableUsedReference>
-          <URN>urn:ddi:int.example:67a50fdb-1ed0-4bd6-a134-a31ee4435662:1</URN>
+          <URN>urn:ddi:int.example:cbac392e-e0d4-4a83-afb8-fac826fdf229:1</URN>
           <Agency>int.example</Agency>
-          <ID>67a50fdb-1ed0-4bd6-a134-a31ee4435662</ID>
+          <ID>cbac392e-e0d4-4a83-afb8-fac826fdf229</ID>
           <Version>1</Version>
           <TypeOfObject>Variable</TypeOfObject>
         </VariableUsedReference>
         <VariableUsedReference>
-          <URN>urn:ddi:int.example:10568cb7-adf4-42d0-b9a9-3bea295c0414:1</URN>
+          <URN>urn:ddi:int.example:20827da2-4fa3-46c1-b4c4-310bc4187702:1</URN>
           <Agency>int.example</Agency>
-          <ID>10568cb7-adf4-42d0-b9a9-3bea295c0414</ID>
+          <ID>20827da2-4fa3-46c1-b4c4-310bc4187702</ID>
           <Version>1</Version>
           <TypeOfObject>Variable</TypeOfObject>
         </VariableUsedReference>
         <VariableUsedReference>
-          <URN>urn:ddi:int.example:3ae794d1-4fd1-4de1-a19f-94437984cdf7:1</URN>
+          <URN>urn:ddi:int.example:dea6f0a8-12df-4b48-8517-5ebc3bb7d4de:1</URN>
           <Agency>int.example</Agency>
-          <ID>3ae794d1-4fd1-4de1-a19f-94437984cdf7</ID>
+          <ID>dea6f0a8-12df-4b48-8517-5ebc3bb7d4de</ID>
           <Version>1</Version>
           <TypeOfObject>Variable</TypeOfObject>
         </VariableUsedReference>
@@ -63,9 +63,9 @@
     </LogicalRecord>
   </DataRelationship>
   <Variable>
-    <URN>urn:ddi:int.example:a1c33678-ff74-4ee3-87f4-0331445b2e0d:1</URN>
+    <URN>urn:ddi:int.example:667c141f-1a25-47ea-bf92-bc37b3599761:1</URN>
     <Agency>int.example</Agency>
-    <ID>a1c33678-ff74-4ee3-87f4-0331445b2e0d</ID>
+    <ID>667c141f-1a25-47ea-bf92-bc37b3599761</ID>
     <Version>1</Version>
     <VariableName>
       <String>
@@ -90,9 +90,9 @@
     </Description>
   </Variable>
   <Variable>
-    <URN>urn:ddi:int.example:67a50fdb-1ed0-4bd6-a134-a31ee4435662:1</URN>
+    <URN>urn:ddi:int.example:cbac392e-e0d4-4a83-afb8-fac826fdf229:1</URN>
     <Agency>int.example</Agency>
-    <ID>67a50fdb-1ed0-4bd6-a134-a31ee4435662</ID>
+    <ID>cbac392e-e0d4-4a83-afb8-fac826fdf229</ID>
     <Version>1</Version>
     <VariableName>
       <String>
@@ -117,9 +117,9 @@
     </Description>
   </Variable>
   <Variable>
-    <URN>urn:ddi:int.example:10568cb7-adf4-42d0-b9a9-3bea295c0414:1</URN>
+    <URN>urn:ddi:int.example:20827da2-4fa3-46c1-b4c4-310bc4187702:1</URN>
     <Agency>int.example</Agency>
-    <ID>10568cb7-adf4-42d0-b9a9-3bea295c0414</ID>
+    <ID>20827da2-4fa3-46c1-b4c4-310bc4187702</ID>
     <Version>1</Version>
     <VariableName>
       <String>
@@ -144,9 +144,9 @@
     </Description>
   </Variable>
   <Variable>
-    <URN>urn:ddi:int.example:3ae794d1-4fd1-4de1-a19f-94437984cdf7:1</URN>
+    <URN>urn:ddi:int.example:dea6f0a8-12df-4b48-8517-5ebc3bb7d4de:1</URN>
     <Agency>int.example</Agency>
-    <ID>3ae794d1-4fd1-4de1-a19f-94437984cdf7</ID>
+    <ID>dea6f0a8-12df-4b48-8517-5ebc3bb7d4de</ID>
     <Version>1</Version>
     <VariableName>
       <String>

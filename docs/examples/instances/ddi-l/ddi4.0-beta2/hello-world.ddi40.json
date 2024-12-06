@@ -4,12 +4,12 @@
       "$type": "ref",
       "value": [
         "Concept",
-        "urn:ddi:int.example:e500699b-715a-4f01-b5ef-b8e490afb5ed:1"
+        "urn:ddi:int.example:e7317356-ebd3-4205-85b1-80098c7cb812:1"
       ]
     }
   ],
   "Concept": {
-    "urn:ddi:int.example:e500699b-715a-4f01-b5ef-b8e490afb5ed:1": {
+    "urn:ddi:int.example:e7317356-ebd3-4205-85b1-80098c7cb812:1": {
       "Label": [
         {
           "Content": [
@@ -23,9 +23,9 @@
         }
       ],
       "$type": "Concept",
-      "URN": "urn:ddi:int.example:e500699b-715a-4f01-b5ef-b8e490afb5ed:1",
+      "URN": "urn:ddi:int.example:e7317356-ebd3-4205-85b1-80098c7cb812:1",
       "Agency": "int.example",
-      "ID": "e500699b-715a-4f01-b5ef-b8e490afb5ed",
+      "ID": "e7317356-ebd3-4205-85b1-80098c7cb812",
       "Version": "1"
     }
   }
