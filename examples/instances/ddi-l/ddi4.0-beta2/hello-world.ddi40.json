@@ -1,0 +1,32 @@
+{
+  "topLevelReference": [
+    {
+      "$type": "ref",
+      "value": [
+        "Concept",
+        "urn:ddi:int.example:e7317356-ebd3-4205-85b1-80098c7cb812:1"
+      ]
+    }
+  ],
+  "Concept": {
+    "urn:ddi:int.example:e7317356-ebd3-4205-85b1-80098c7cb812:1": {
+      "Label": [
+        {
+          "Content": [
+            {
+              "MultilingualStringValue": {
+                "Value": "Hello, world.",
+                "LanguageTag": "en"
+              }
+            }
+          ]
+        }
+      ],
+      "$type": "Concept",
+      "URN": "urn:ddi:int.example:e7317356-ebd3-4205-85b1-80098c7cb812:1",
+      "Agency": "int.example",
+      "ID": "e7317356-ebd3-4205-85b1-80098c7cb812",
+      "Version": "1"
+    }
+  }
+}

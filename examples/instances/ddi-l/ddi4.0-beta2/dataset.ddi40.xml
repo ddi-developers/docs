@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemContainer xmlns="ddi:instance:4_0">
+  <TopLevelReference>
+    <URN>urn:ddi:int.example:ada003e0-e129-4454-9113-41535d47a35f:1</URN>
+    <Agency>int.example</Agency>
+    <ID>ada003e0-e129-4454-9113-41535d47a35f</ID>
+    <Version>1</Version>
+    <TypeOfObject>PhysicalInstance</TypeOfObject>
+  </TopLevelReference>
+  <PhysicalInstance>
+    <URN>urn:ddi:int.example:ada003e0-e129-4454-9113-41535d47a35f:1</URN>
+    <Agency>int.example</Agency>
+    <ID>ada003e0-e129-4454-9113-41535d47a35f</ID>
+    <Version>1</Version>
+    <DataRelationshipReference>
+      <URN>urn:ddi:int.example:5c508855-d1d0-425e-ae8b-1d1f76a18800:1</URN>
+      <Agency>int.example</Agency>
+      <ID>5c508855-d1d0-425e-ae8b-1d1f76a18800</ID>
+      <Version>1</Version>
+      <TypeOfObject>DataRelationship</TypeOfObject>
+    </DataRelationshipReference>
+  </PhysicalInstance>
+  <DataRelationship>
+    <URN>urn:ddi:int.example:5c508855-d1d0-425e-ae8b-1d1f76a18800:1</URN>
+    <Agency>int.example</Agency>
+    <ID>5c508855-d1d0-425e-ae8b-1d1f76a18800</ID>
+    <Version>1</Version>
+    <LogicalRecord>
+      <URN>urn:ddi:int.example:8c0eadd8-f922-4638-aef7-6c2fa4cb012f:1</URN>
+      <Agency>int.example</Agency>
+      <ID>8c0eadd8-f922-4638-aef7-6c2fa4cb012f</ID>
+      <Version>1</Version>
+      <VariablesInRecord>
+        <VariableUsedReference>
+          <URN>urn:ddi:int.example:667c141f-1a25-47ea-bf92-bc37b3599761:1</URN>
+          <Agency>int.example</Agency>
+          <ID>667c141f-1a25-47ea-bf92-bc37b3599761</ID>
+          <Version>1</Version>
+          <TypeOfObject>Variable</TypeOfObject>
+        </VariableUsedReference>
+        <VariableUsedReference>
+          <URN>urn:ddi:int.example:cbac392e-e0d4-4a83-afb8-fac826fdf229:1</URN>
+          <Agency>int.example</Agency>
+          <ID>cbac392e-e0d4-4a83-afb8-fac826fdf229</ID>
+          <Version>1</Version>
+          <TypeOfObject>Variable</TypeOfObject>
+        </VariableUsedReference>
+        <VariableUsedReference>
+          <URN>urn:ddi:int.example:20827da2-4fa3-46c1-b4c4-310bc4187702:1</URN>
+          <Agency>int.example</Agency>
+          <ID>20827da2-4fa3-46c1-b4c4-310bc4187702</ID>
+          <Version>1</Version>
+          <TypeOfObject>Variable</TypeOfObject>
+        </VariableUsedReference>
+        <VariableUsedReference>
+          <URN>urn:ddi:int.example:dea6f0a8-12df-4b48-8517-5ebc3bb7d4de:1</URN>
+          <Agency>int.example</Agency>
+          <ID>dea6f0a8-12df-4b48-8517-5ebc3bb7d4de</ID>
+          <Version>1</Version>
+          <TypeOfObject>Variable</TypeOfObject>
+        </VariableUsedReference>
+      </VariablesInRecord>
+    </LogicalRecord>
+  </DataRelationship>
+  <Variable>
+    <URN>urn:ddi:int.example:667c141f-1a25-47ea-bf92-bc37b3599761:1</URN>
+    <Agency>int.example</Agency>
+    <ID>667c141f-1a25-47ea-bf92-bc37b3599761</ID>
+    <Version>1</Version>
+    <VariableName>
+      <String>
+        <MultilingualStringValue lang="en">var0</MultilingualStringValue>
+      </String>
+    </VariableName>
+    <Label>
+      <Content>
+        <MultilingualStringValue lang="en">Label for variable 0</MultilingualStringValue>
+      </Content>
+      <Content>
+        <MultilingualStringValue lang="fr">Label pour variable 0</MultilingualStringValue>
+      </Content>
+    </Label>
+    <Description>
+      <Content>
+        <MultilingualStringValue lang="en">Description for variable 0</MultilingualStringValue>
+      </Content>
+      <Content>
+        <MultilingualStringValue lang="fr">Description pour variable 0</MultilingualStringValue>
+      </Content>
+    </Description>
+  </Variable>
+  <Variable>
+    <URN>urn:ddi:int.example:cbac392e-e0d4-4a83-afb8-fac826fdf229:1</URN>
+    <Agency>int.example</Agency>
+    <ID>cbac392e-e0d4-4a83-afb8-fac826fdf229</ID>
+    <Version>1</Version>
+    <VariableName>
+      <String>
+        <MultilingualStringValue lang="en">var1</MultilingualStringValue>
+      </String>
+    </VariableName>
+    <Label>
+      <Content>
+        <MultilingualStringValue lang="en">Label for variable 1</MultilingualStringValue>
+      </Content>
+      <Content>
+        <MultilingualStringValue lang="fr">Label pour variable 1</MultilingualStringValue>
+      </Content>
+    </Label>
+    <Description>
+      <Content>
+        <MultilingualStringValue lang="en">Description for variable 1</MultilingualStringValue>
+      </Content>
+      <Content>
+        <MultilingualStringValue lang="fr">Description pour variable 1</MultilingualStringValue>
+      </Content>
+    </Description>
+  </Variable>
+  <Variable>
+    <URN>urn:ddi:int.example:20827da2-4fa3-46c1-b4c4-310bc4187702:1</URN>
+    <Agency>int.example</Agency>
+    <ID>20827da2-4fa3-46c1-b4c4-310bc4187702</ID>
+    <Version>1</Version>
+    <VariableName>
+      <String>
+        <MultilingualStringValue lang="en">var2</MultilingualStringValue>
+      </String>
+    </VariableName>
+    <Label>
+      <Content>
+        <MultilingualStringValue lang="en">Label for variable 2</MultilingualStringValue>
+      </Content>
+      <Content>
+        <MultilingualStringValue lang="fr">Label pour variable 2</MultilingualStringValue>
+      </Content>
+    </Label>
+    <Description>
+      <Content>
+        <MultilingualStringValue lang="en">Description for variable 2</MultilingualStringValue>
+      </Content>
+      <Content>
+        <MultilingualStringValue lang="fr">Description pour variable 2</MultilingualStringValue>
+      </Content>
+    </Description>
+  </Variable>
+  <Variable>
+    <URN>urn:ddi:int.example:dea6f0a8-12df-4b48-8517-5ebc3bb7d4de:1</URN>
+    <Agency>int.example</Agency>
+    <ID>dea6f0a8-12df-4b48-8517-5ebc3bb7d4de</ID>
+    <Version>1</Version>
+    <VariableName>
+      <String>
+        <MultilingualStringValue lang="en">var3</MultilingualStringValue>
+      </String>
+    </VariableName>
+    <Label>
+      <Content>
+        <MultilingualStringValue lang="en">Label for variable 3</MultilingualStringValue>
+      </Content>
+      <Content>
+        <MultilingualStringValue lang="fr">Label pour variable 3</MultilingualStringValue>
+      </Content>
+    </Label>
+    <Description>
+      <Content>
+        <MultilingualStringValue lang="en">Description for variable 3</MultilingualStringValue>
+      </Content>
+      <Content>
+        <MultilingualStringValue lang="fr">Description pour variable 3</MultilingualStringValue>
+      </Content>
+    </Description>
+  </Variable>
+</ItemContainer>

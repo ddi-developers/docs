@@ -1,0 +1,90 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix ddi: <http://rdf-vocabulary.ddialliance.org/lifecycle##>.
+
+<urn:ddi:int.example:20827da2-4fa3-46c1-b4c4-310bc4187702:1> <ddi:Description> [a <ddi:StructuredStringType> ; 
+                                                                                <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                               <ddi:MultilingualStringValue> "Description for variable 2"@en] ; 
+                                                                                <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                               <ddi:MultilingualStringValue> "Description pour variable 2"@fr]];
+                                                             <ddi:Label> [a <ddi:LabelType> ; 
+                                                                          a <ddi:StructuredStringType> ; 
+                                                                          <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                         <ddi:MultilingualStringValue> "Label for variable 2"@en] ; 
+                                                                          <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                         <ddi:MultilingualStringValue> "Label pour variable 2"@fr]];
+                                                             <ddi:VariableName> [a <ddi:NameType> ; 
+                                                                                 a <ddi:InternationalStringType> ; 
+                                                                                 <ddi:String> [a <ddi:StringType> ; 
+                                                                                               <ddi:MultilingualStringValue> "var2"@en]];
+                                                             a <ddi:Variable>,
+                                                               <ddi:Versionable>.
+<urn:ddi:int.example:5c508855-d1d0-425e-ae8b-1d1f76a18800:1> <ddi:LogicalRecord> [a <ddi:LogicalRecordType> ; 
+                                                                                  a <ddi:IdentifiableType> ; 
+                                                                                  <ddi:URN> "urn:ddi:int.example:8c0eadd8-f922-4638-aef7-6c2fa4cb012f:1" ; 
+                                                                                  <ddi:Agency> "int.example" ; 
+                                                                                  <ddi:ID> "8c0eadd8-f922-4638-aef7-6c2fa4cb012f" ; 
+                                                                                  <ddi:Version> "1" ; 
+                                                                                  <ddi:VariablesInRecord> [a <ddi:VariablesInRecordType> ; 
+                                                                                                           <ddi:VariableUsedReference> <urn:ddi:int.example:667c141f-1a25-47ea-bf92-bc37b3599761:1> ; 
+                                                                                                           <ddi:VariableUsedReference> <urn:ddi:int.example:cbac392e-e0d4-4a83-afb8-fac826fdf229:1> ; 
+                                                                                                           <ddi:VariableUsedReference> <urn:ddi:int.example:20827da2-4fa3-46c1-b4c4-310bc4187702:1> ; 
+                                                                                                           <ddi:VariableUsedReference> <urn:ddi:int.example:dea6f0a8-12df-4b48-8517-5ebc3bb7d4de:1>]];
+                                                             a <ddi:DataRelationship>,
+                                                               <ddi:Versionable>.
+<urn:ddi:int.example:667c141f-1a25-47ea-bf92-bc37b3599761:1> <ddi:Description> [a <ddi:StructuredStringType> ; 
+                                                                                <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                               <ddi:MultilingualStringValue> "Description for variable 0"@en] ; 
+                                                                                <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                               <ddi:MultilingualStringValue> "Description pour variable 0"@fr]];
+                                                             <ddi:Label> [a <ddi:LabelType> ; 
+                                                                          a <ddi:StructuredStringType> ; 
+                                                                          <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                         <ddi:MultilingualStringValue> "Label for variable 0"@en] ; 
+                                                                          <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                         <ddi:MultilingualStringValue> "Label pour variable 0"@fr]];
+                                                             <ddi:VariableName> [a <ddi:NameType> ; 
+                                                                                 a <ddi:InternationalStringType> ; 
+                                                                                 <ddi:String> [a <ddi:StringType> ; 
+                                                                                               <ddi:MultilingualStringValue> "var0"@en]];
+                                                             a <ddi:Variable>,
+                                                               <ddi:Versionable>.
+<urn:ddi:int.example:ada003e0-e129-4454-9113-41535d47a35f:1> <ddi:DataRelationshipReference> <urn:ddi:int.example:5c508855-d1d0-425e-ae8b-1d1f76a18800:1>;
+                                                             a <ddi:PhysicalInstance>,
+                                                               <ddi:Maintainable>,
+                                                               <ddi:Versionable>.
+<urn:ddi:int.example:cbac392e-e0d4-4a83-afb8-fac826fdf229:1> <ddi:Description> [a <ddi:StructuredStringType> ; 
+                                                                                <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                               <ddi:MultilingualStringValue> "Description for variable 1"@en] ; 
+                                                                                <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                               <ddi:MultilingualStringValue> "Description pour variable 1"@fr]];
+                                                             <ddi:Label> [a <ddi:LabelType> ; 
+                                                                          a <ddi:StructuredStringType> ; 
+                                                                          <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                         <ddi:MultilingualStringValue> "Label for variable 1"@en] ; 
+                                                                          <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                         <ddi:MultilingualStringValue> "Label pour variable 1"@fr]];
+                                                             <ddi:VariableName> [a <ddi:NameType> ; 
+                                                                                 a <ddi:InternationalStringType> ; 
+                                                                                 <ddi:String> [a <ddi:StringType> ; 
+                                                                                               <ddi:MultilingualStringValue> "var1"@en]];
+                                                             a <ddi:Variable>,
+                                                               <ddi:Versionable>.
+<urn:ddi:int.example:dea6f0a8-12df-4b48-8517-5ebc3bb7d4de:1> <ddi:Description> [a <ddi:StructuredStringType> ; 
+                                                                                <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                               <ddi:MultilingualStringValue> "Description for variable 3"@en] ; 
+                                                                                <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                               <ddi:MultilingualStringValue> "Description pour variable 3"@fr]];
+                                                             <ddi:Label> [a <ddi:LabelType> ; 
+                                                                          a <ddi:StructuredStringType> ; 
+                                                                          <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                         <ddi:MultilingualStringValue> "Label for variable 3"@en] ; 
+                                                                          <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                         <ddi:MultilingualStringValue> "Label pour variable 3"@fr]];
+                                                             <ddi:VariableName> [a <ddi:NameType> ; 
+                                                                                 a <ddi:InternationalStringType> ; 
+                                                                                 <ddi:String> [a <ddi:StringType> ; 
+                                                                                               <ddi:MultilingualStringValue> "var3"@en]];
+                                                             a <ddi:Variable>,
+                                                               <ddi:Versionable>.

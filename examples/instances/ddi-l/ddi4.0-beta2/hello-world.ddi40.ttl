@@ -1,0 +1,11 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix ddi: <http://rdf-vocabulary.ddialliance.org/lifecycle##>.
+
+<urn:ddi:int.example:e7317356-ebd3-4205-85b1-80098c7cb812:1> <ddi:Label> [a <ddi:LabelType> ; 
+                                                                          a <ddi:StructuredStringType> ; 
+                                                                          <ddi:Content> [a <ddi:ContentType> ; 
+                                                                                         <ddi:MultilingualStringValue> "Hello, world."@en]];
+                                                             a <ddi:Concept>,
+                                                               <ddi:Versionable>.
