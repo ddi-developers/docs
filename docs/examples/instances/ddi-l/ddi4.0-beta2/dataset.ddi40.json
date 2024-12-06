@@ -4,30 +4,30 @@
       "$type": "ref",
       "value": [
         "PhysicalInstance",
-        "urn:ddi:int.example:uuid-1:1"
+        "urn:ddi:int.example:a08b84e3-308b-4d8e-87df-8bb7c6bf0bdd:1"
       ]
     }
   ],
   "PhysicalInstance": {
-    "urn:ddi:int.example:uuid-1:1": {
+    "urn:ddi:int.example:a08b84e3-308b-4d8e-87df-8bb7c6bf0bdd:1": {
       "DataRelationshipReference": [
         {
           "$type": "ref",
           "value": [
             "DataRelationship",
-            "urn:ddi:int.example:uuid-2:1"
+            "urn:ddi:int.example:f241d049-df2a-4a4c-96ec-d3cfbb350462:1"
           ]
         }
       ],
       "$type": "PhysicalInstance",
-      "URN": "urn:ddi:int.example:uuid-1:1",
+      "URN": "urn:ddi:int.example:a08b84e3-308b-4d8e-87df-8bb7c6bf0bdd:1",
       "Agency": "int.example",
-      "ID": "uuid-1",
+      "ID": "a08b84e3-308b-4d8e-87df-8bb7c6bf0bdd",
       "Version": "1"
     }
   },
   "DataRelationship": {
-    "urn:ddi:int.example:uuid-2:1": {
+    "urn:ddi:int.example:f241d049-df2a-4a4c-96ec-d3cfbb350462:1": {
       "LogicalRecord": [
         {
           "VariablesInRecord": {
@@ -36,48 +36,48 @@
                 "$type": "ref",
                 "value": [
                   "Variable",
-                  "urn:ddi:int.example:uuid-4:1"
+                  "urn:ddi:int.example:ff73085f-4dc7-4145-aed3-9041e53d05de:1"
                 ]
               },
               {
                 "$type": "ref",
                 "value": [
                   "Variable",
-                  "urn:ddi:int.example:uuid-5:1"
+                  "urn:ddi:int.example:cbeb4256-e9f9-4392-86b0-c7a71b3ddb9b:1"
                 ]
               },
               {
                 "$type": "ref",
                 "value": [
                   "Variable",
-                  "urn:ddi:int.example:uuid-6:1"
+                  "urn:ddi:int.example:6a386792-07d4-4c81-bfd8-0e35af6dbef8:1"
                 ]
               },
               {
                 "$type": "ref",
                 "value": [
                   "Variable",
-                  "urn:ddi:int.example:uuid-7:1"
+                  "urn:ddi:int.example:39d3d9d1-0a65-416f-a405-2a789517c00e:1"
                 ]
               }
             ]
           },
           "$type": "LogicalRecordType",
-          "URN": "urn:ddi:int.exampleuuid-3:1",
+          "URN": "urn:ddi:int.example:01af2e1c-1198-4eb4-8362-2b4b82a5b3a2:1",
           "Agency": "int.example",
-          "ID": "uuid-3",
+          "ID": "01af2e1c-1198-4eb4-8362-2b4b82a5b3a2",
           "Version": "1"
         }
       ],
       "$type": "DataRelationship",
-      "URN": "urn:ddi:int.example:uuid-2:1",
+      "URN": "urn:ddi:int.example:f241d049-df2a-4a4c-96ec-d3cfbb350462:1",
       "Agency": "int.example",
-      "ID": "uuid-2",
+      "ID": "f241d049-df2a-4a4c-96ec-d3cfbb350462",
       "Version": "1"
     }
   },
   "Variable": {
-    "urn:ddi:int.example:uuid-4:1": {
+    "urn:ddi:int.example:ff73085f-4dc7-4145-aed3-9041e53d05de:1": {
       "VariableName": [
         {
           "String": [
@@ -125,12 +125,12 @@
         ]
       },
       "$type": "Variable",
-      "URN": "urn:ddi:int.example:uuid-4:1",
+      "URN": "urn:ddi:int.example:ff73085f-4dc7-4145-aed3-9041e53d05de:1",
       "Agency": "int.example",
-      "ID": "uuid-4",
+      "ID": "ff73085f-4dc7-4145-aed3-9041e53d05de",
       "Version": "1"
     },
-    "urn:ddi:int.example:uuid-5:1": {
+    "urn:ddi:int.example:cbeb4256-e9f9-4392-86b0-c7a71b3ddb9b:1": {
       "VariableName": [
         {
           "String": [
@@ -178,12 +178,12 @@
         ]
       },
       "$type": "Variable",
-      "URN": "urn:ddi:int.example:uuid-5:1",
+      "URN": "urn:ddi:int.example:cbeb4256-e9f9-4392-86b0-c7a71b3ddb9b:1",
       "Agency": "int.example",
-      "ID": "uuid-5",
+      "ID": "cbeb4256-e9f9-4392-86b0-c7a71b3ddb9b",
       "Version": "1"
     },
-    "urn:ddi:int.example:uuid-6:1": {
+    "urn:ddi:int.example:6a386792-07d4-4c81-bfd8-0e35af6dbef8:1": {
       "VariableName": [
         {
           "String": [
@@ -231,12 +231,12 @@
         ]
       },
       "$type": "Variable",
-      "URN": "urn:ddi:int.example:uuid-6:1",
+      "URN": "urn:ddi:int.example:6a386792-07d4-4c81-bfd8-0e35af6dbef8:1",
       "Agency": "int.example",
-      "ID": "uuid-6",
+      "ID": "6a386792-07d4-4c81-bfd8-0e35af6dbef8",
       "Version": "1"
     },
-    "urn:ddi:int.example:uuid-7:1": {
+    "urn:ddi:int.example:39d3d9d1-0a65-416f-a405-2a789517c00e:1": {
       "VariableName": [
         {
           "String": [
@@ -284,9 +284,9 @@
         ]
       },
       "$type": "Variable",
-      "URN": "urn:ddi:int.example:uuid-7:1",
+      "URN": "urn:ddi:int.example:39d3d9d1-0a65-416f-a405-2a789517c00e:1",
       "Agency": "int.example",
-      "ID": "uuid-7",
+      "ID": "39d3d9d1-0a65-416f-a405-2a789517c00e",
       "Version": "1"
     }
   }

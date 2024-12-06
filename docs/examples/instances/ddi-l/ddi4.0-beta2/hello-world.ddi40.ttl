@@ -1,0 +1,7 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix ddi: <http://rdf-vocabulary.ddialliance.org/lifecycle##>.
+
+<urn:ddi:int.example:4affdb43-23d9-42ae-95df-c1034aeb013e:1> a <ddi:Concept>;
+                                                             <http://www.w3.org/2002/07/owl#dummy1> "dummy2".

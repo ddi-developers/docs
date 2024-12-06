@@ -1,61 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ItemContainer xmlns="ddi:instance:4_0">
   <TopLevelReference>
-    <URN>urn:ddi:int.example:uuid-1:1</URN>
+    <URN>urn:ddi:int.example:a08b84e3-308b-4d8e-87df-8bb7c6bf0bdd:1</URN>
     <Agency>int.example</Agency>
-    <ID>uuid-1</ID>
+    <ID>a08b84e3-308b-4d8e-87df-8bb7c6bf0bdd</ID>
     <Version>1</Version>
     <TypeOfObject>PhysicalInstance</TypeOfObject>
   </TopLevelReference>
   <PhysicalInstance>
-    <URN>urn:ddi:int.example:uuid-1:1</URN>
+    <URN>urn:ddi:int.example:a08b84e3-308b-4d8e-87df-8bb7c6bf0bdd:1</URN>
     <Agency>int.example</Agency>
-    <ID>uuid-1</ID>
+    <ID>a08b84e3-308b-4d8e-87df-8bb7c6bf0bdd</ID>
     <Version>1</Version>
     <DataRelationshipReference>
-      <URN>urn:ddi:int.example:uuid-2:1</URN>
+      <URN>urn:ddi:int.example:f241d049-df2a-4a4c-96ec-d3cfbb350462:1</URN>
       <Agency>int.example</Agency>
-      <ID>uuid-2</ID>
+      <ID>f241d049-df2a-4a4c-96ec-d3cfbb350462</ID>
       <Version>1</Version>
       <TypeOfObject>DataRelationship</TypeOfObject>
     </DataRelationshipReference>
   </PhysicalInstance>
   <DataRelationship>
-    <URN>urn:ddi:int.example:uuid-2:1</URN>
+    <URN>urn:ddi:int.example:f241d049-df2a-4a4c-96ec-d3cfbb350462:1</URN>
     <Agency>int.example</Agency>
-    <ID>uuid-2</ID>
+    <ID>f241d049-df2a-4a4c-96ec-d3cfbb350462</ID>
     <Version>1</Version>
     <LogicalRecord>
-      <URN>urn:ddi:int.exampleuuid-3:1</URN>
+      <URN>urn:ddi:int.example:01af2e1c-1198-4eb4-8362-2b4b82a5b3a2:1</URN>
       <Agency>int.example</Agency>
-      <ID>uuid-3</ID>
+      <ID>01af2e1c-1198-4eb4-8362-2b4b82a5b3a2</ID>
       <Version>1</Version>
       <VariablesInRecord>
         <VariableUsedReference>
-          <URN>urn:ddi:int.example:uuid-4:1</URN>
+          <URN>urn:ddi:int.example:ff73085f-4dc7-4145-aed3-9041e53d05de:1</URN>
           <Agency>int.example</Agency>
-          <ID>uuid-4</ID>
+          <ID>ff73085f-4dc7-4145-aed3-9041e53d05de</ID>
           <Version>1</Version>
           <TypeOfObject>Variable</TypeOfObject>
         </VariableUsedReference>
         <VariableUsedReference>
-          <URN>urn:ddi:int.example:uuid-5:1</URN>
+          <URN>urn:ddi:int.example:cbeb4256-e9f9-4392-86b0-c7a71b3ddb9b:1</URN>
           <Agency>int.example</Agency>
-          <ID>uuid-5</ID>
+          <ID>cbeb4256-e9f9-4392-86b0-c7a71b3ddb9b</ID>
           <Version>1</Version>
           <TypeOfObject>Variable</TypeOfObject>
         </VariableUsedReference>
         <VariableUsedReference>
-          <URN>urn:ddi:int.example:uuid-6:1</URN>
+          <URN>urn:ddi:int.example:6a386792-07d4-4c81-bfd8-0e35af6dbef8:1</URN>
           <Agency>int.example</Agency>
-          <ID>uuid-6</ID>
+          <ID>6a386792-07d4-4c81-bfd8-0e35af6dbef8</ID>
           <Version>1</Version>
           <TypeOfObject>Variable</TypeOfObject>
         </VariableUsedReference>
         <VariableUsedReference>
-          <URN>urn:ddi:int.example:uuid-7:1</URN>
+          <URN>urn:ddi:int.example:39d3d9d1-0a65-416f-a405-2a789517c00e:1</URN>
           <Agency>int.example</Agency>
-          <ID>uuid-7</ID>
+          <ID>39d3d9d1-0a65-416f-a405-2a789517c00e</ID>
           <Version>1</Version>
           <TypeOfObject>Variable</TypeOfObject>
         </VariableUsedReference>
@@ -63,9 +63,9 @@
     </LogicalRecord>
   </DataRelationship>
   <Variable>
-    <URN>urn:ddi:int.example:uuid-4:1</URN>
+    <URN>urn:ddi:int.example:ff73085f-4dc7-4145-aed3-9041e53d05de:1</URN>
     <Agency>int.example</Agency>
-    <ID>uuid-4</ID>
+    <ID>ff73085f-4dc7-4145-aed3-9041e53d05de</ID>
     <Version>1</Version>
     <VariableName>
       <String>
@@ -90,9 +90,9 @@
     </Description>
   </Variable>
   <Variable>
-    <URN>urn:ddi:int.example:uuid-5:1</URN>
+    <URN>urn:ddi:int.example:cbeb4256-e9f9-4392-86b0-c7a71b3ddb9b:1</URN>
     <Agency>int.example</Agency>
-    <ID>uuid-5</ID>
+    <ID>cbeb4256-e9f9-4392-86b0-c7a71b3ddb9b</ID>
     <Version>1</Version>
     <VariableName>
       <String>
@@ -117,9 +117,9 @@
     </Description>
   </Variable>
   <Variable>
-    <URN>urn:ddi:int.example:uuid-6:1</URN>
+    <URN>urn:ddi:int.example:6a386792-07d4-4c81-bfd8-0e35af6dbef8:1</URN>
     <Agency>int.example</Agency>
-    <ID>uuid-6</ID>
+    <ID>6a386792-07d4-4c81-bfd8-0e35af6dbef8</ID>
     <Version>1</Version>
     <VariableName>
       <String>
@@ -144,9 +144,9 @@
     </Description>
   </Variable>
   <Variable>
-    <URN>urn:ddi:int.example:uuid-7:1</URN>
+    <URN>urn:ddi:int.example:39d3d9d1-0a65-416f-a405-2a789517c00e:1</URN>
     <Agency>int.example</Agency>
-    <ID>uuid-7</ID>
+    <ID>39d3d9d1-0a65-416f-a405-2a789517c00e</ID>
     <Version>1</Version>
     <VariableName>
       <String>
